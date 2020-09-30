@@ -1,13 +1,10 @@
 import scipy.sparse
 
-class dct_operator_2D:
-    def __init__(self, nx, ny):
+def dct_operator_2D(self, nx, ny):
         """
         Create a scipy.sparse.LinearOperator 
+        Try to verify the behavior of A@vx = dense_A@vx
         """
         pass
-    def dot(self, vx):
-        """
-        Forward 2D dct
-        """
-        pass 
+
+    return A
